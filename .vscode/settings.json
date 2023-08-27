@@ -1,0 +1,12 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:backend-intro}/v4/contact.sql",
+      "name": "go",
+      "group": "go"
+    }
+  ]
+}
